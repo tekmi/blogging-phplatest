@@ -28,7 +28,10 @@ function converts(array $person): object {
 var_dump(
     moves(new Car()),
     moves(new Person()),
-    moves(json_decode('{}'))
+    moves(new \DateTime()),
+    moves(json_decode('{}')),
+    moves(new class() {}),
+    moves(new \stdClass())
 );
 
 var_dump(converts([
