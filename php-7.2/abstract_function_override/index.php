@@ -22,6 +22,6 @@ var_dump(
     (new Lion())->run("25")
 );
 
-#docker run -it --rm -v "$PWD":/usr/src/php-7.2 -w /usr/src/php-7.2 php:7.2.0RC5-cli-stretch php php-7.2/abstract_function_override/index.php
-#docker run -it --rm -v "$PWD":/usr/src/php-7.2 -w /usr/src/php-7.2 php:7.1-cli php php-7.2/abstract_function_override/index.php
-#docker run -it --rm -v "$PWD":/usr/src/php-7.2 -w /usr/src/php-7.2 php:7.0-cli php php-7.2/abstract_function_override/index.php
+#docker run -it --rm -v "$PWD":/usr/src/php-7.2 -w /usr/src/php-7.2 php:7.2.0-cli-stretch php php-7.2/abstract_function_override/index.php
+#docker run -it --rm -v "$PWD":/usr/src/php-7.2 -w /usr/src/php-7.2 php:7.1.12-cli-jessie php php-7.2/abstract_function_override/index.php
+#docker run -it --rm -v "$PWD":/usr/src/php-7.2 -w /usr/src/php-7.2 php:7.0.26-cli-jessie php php-7.2/abstract_function_override/index.php
